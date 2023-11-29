@@ -45,7 +45,7 @@ def generate_dot_graph(repo_path, output_file):
     dot_file.close()
 
 if __name__ == '__main__':
-    repo_path = '.'  # Укажите путь к вашему локальному git-репозиторию
+    repo_path = 'C:/Users/1'  # Укажите путь к вашему локальному git-репозиторию
     output_file = 'git_graph.dot'
 
     generate_dot_graph(repo_path, output_file)
